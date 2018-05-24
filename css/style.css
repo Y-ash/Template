@@ -2,7 +2,8 @@ body
 {
     background-image: url('../images/main.jpeg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
     overflow-y: none;
 }
 
