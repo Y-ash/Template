@@ -22,7 +22,11 @@ body
     padding: 15px;
 }
 
-.sections img{
+#gallary{
+    margin-top: 5vh;
+}
+
+#gallary img{
     width: 100%;
     height: auto;
     padding-left: 0;
@@ -30,8 +34,11 @@ body
     margin-bottom: 10px;
     transition: all 2s;
 }
-
-.sections img:hover{
+#gallary img:hover{
     transform: scale(1.09);
     transition: all 2s;
+}
+
+#about{
+    margin-top: 5vh;
 }
