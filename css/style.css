@@ -17,9 +17,9 @@ body
 
 .sections {
     background-color: White;
-    margin-top: 50vh;
     width: 100%;
     padding: 15px;
+    margin-top: 40px;
 }
 
 #gallary{
@@ -36,9 +36,52 @@ body
 }
 #gallary img:hover{
     transform: scale(1.09);
-    transition: all 2s;
 }
 
 #about{
-    margin-top: 5vh;
+    padding: 20px;
+    background-image: url('../images/ronaldo.jpg');
+    background-attachment: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin: -10px;
+    border-bottom: 1px solid rgb(150, 145, 145)
+}
+
+#about img{
+    height: 500px;
+    width: 100%;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(153, 144, 144);
+    font-family: cursive;
+    margin-top: 50px;
+    margin: 50px;
+}
+
+#about p{
+    color: white;
+    text-align: justify;
+    margin: 20px;
+    margin-top: 60px;
+} 
+
+.border{
+    border-bottom: 1px solid rgb(153, 144, 144);
+    margin: 50px;
+    margin-top: 70px;
+}
+
+#main p{
+    margin-top: 90%;
+    color: white;
+    margin-left: 50%;
+    font-size: 2.5em;
+}
+
+#main{
+    margin-top: 100px;
 }
