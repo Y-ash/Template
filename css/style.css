@@ -117,3 +117,9 @@ body
 i:first-child{
     margin-left: 120px;
 }
+
+.custom-nav:hover{
+    border-bottom: none;
+    background-color: rgb(37, 35, 35);
+    transition: all 1s;
+}
